@@ -23,25 +23,22 @@ Just add a link to the css file in your `<head>`:
 
 ```html
 <!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@vever001/slick-carousel@1.8.2/slick/slick.css"/>
 <!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@vever001/slick-carousel@1.8.2/slick/slick-theme.css"/>
 ```
 
 Then, before your closing ```<body>``` tag add:
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@vever001/slick-carousel@1.8.2/slick/slick.min.js"></script>
 ```
 
 #### Package Managers
 
 ```sh
-# Bower
-bower install --save slick-carousel
-
 # NPM
-npm install slick-carousel
+npm install @vever001/slick-carousel
 ```
 
 #### Contributing
