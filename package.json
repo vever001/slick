@@ -46,5 +46,16 @@
   },
   "peerDependencies": {
     "jquery": ">=1.8.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.5.6",
+    "rollup": "^2.79.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.89.2"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
   }
 }
